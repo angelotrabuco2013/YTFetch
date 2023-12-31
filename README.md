@@ -1,5 +1,5 @@
-# Web YouTube Downloader
-A simple express app which allows you to view all source urls of a YouTube video to directly download it from Google's servers.
+# YTFetch
+A simple express app which allows you to view all source urls of a YouTube video to directly download it from Google's servers (API).
 
 ## 📦 Dependencies
 - [Express](https://expressjs.com/)
