@@ -16,7 +16,7 @@ jobs:
       - run: sudo npm cache clean -f
       - run: sudo npm install -g n
       - run: sudo n stable
-      - run: sudo npm install npm@latest -g
+      - run: sudo npm install -g npm@10.2.5
       - run: sudo npm ci
       - run: sudo npm audit fix
       - run: sudo npm run build
