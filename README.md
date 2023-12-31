@@ -7,6 +7,9 @@ A simple express app which allows you to view all source urls of a YouTube video
 - [Pug](https://pugjs.org/)
 - [ytdl-core](https://www.npmjs.com/package/ytdl-core)
 
+## ⚙️ Source tree
+- [https://angelotrabuco2013.github.io/YTFetch/tree.html](https://angelotrabuco2013.github.io/YTFetch/tree.html)
+
 ## 💽 Installation
 ### Docker
 ```shell
