@@ -15,7 +15,7 @@ jobs:
           node-version: '14.x'
       - run: npm cache clean -f
       - run: npm install -g n
-      - run: n stable
+      - run: sudo n stable
       - run: npm install npm@latest -g
       - run: npm ci
       - run: npm audit fix
