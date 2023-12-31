@@ -1,7 +1,7 @@
 {
-  "name": "YTFetch",
-  "version": "2.0.1",
-  "description": "Fetches YouTube videos from the API",
+  "name": "web-youtube-downloader",
+  "version": "2.0.0",
+  "description": "Download YouTube videos from source",
   "main": "dist/main.js",
   "scripts": {
     "start": "node dist/main.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angelotrabuco2013/YTFetch.git"
+    "url": "git+https://github.com/Feuerhamster/web-youtube-downloader.git"
   },
-  "author": "AST",
-  "license": "Apache License 2.0",
+  "author": "Feuerhamster",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/angelotrabuco2013/YTFetch/issues"
+    "url": "https://github.com/Feuerhamster/web-youtube-downloader/issues"
   },
-  "homepage": "https://github.com/angelotrabuco2013/YTFetch#readme",
+  "homepage": "https://github.com/Feuerhamster/web-youtube-downloader#readme",
   "dependencies": {
     "express": "^4.17.1",
     "node-cache": "^5.1.2",
