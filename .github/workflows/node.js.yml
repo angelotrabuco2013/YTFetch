@@ -14,6 +14,6 @@ jobs:
         with:
           node-version: '14.x'
       - run: npm install
-      - run: npm audit
+      - run: npm audit fix
       - run: npm run build
       - run: npm test
