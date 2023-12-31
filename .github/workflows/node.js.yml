@@ -13,10 +13,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-      - run: npm cache clean -f
-      - run: npm install -g n
+      - run: sudo npm cache clean -f
+      - run: sudo npm install -g n
       - run: sudo n stable
-      - run: npm install npm@latest -g
-      - run: npm ci
-      - run: npm audit fix
-      - run: npm run build
+      - run: sudo npm install npm@latest -g
+      - run: sudo npm ci
+      - run: sudo npm audit fix
+      - run: sudo npm run build
